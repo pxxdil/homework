@@ -13,22 +13,6 @@
   color: white;
 }
 
-.rotate {
-  animation: rotation 2s;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-.rotate {
-  animation-timing-function: linear;
-}
-
-.rotate {
-  animation-iteration-count: infinite;
+.btn {
+  width: 100px;
 }
